@@ -12,3 +12,16 @@ This project was developed using the following technologies:
 
 Welcome! My portfolio is available in English, Portuguese, and Spanish.
 
+| Project Part | Status |
+| ------------ | ------ |
+| Languages  | Under Development |
+| Dark Mode | Under Development |
+| Header | Under Development |
+| Presentation Area | Under Development |
+| Technologies Area | Under Development |
+| Projects Area | Under Development |
+| Footer | Under Development |
+
+## 🔗 Links
+> - Color Palette: https://colorhunt.co/
+> - Icons: https://fontawesome.com/

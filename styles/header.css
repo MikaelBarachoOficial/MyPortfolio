@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.5em;
+    width: 100vw;
+    position: fixed;
+}
+
+/* LEFT SIDE */
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+#menu-icon__checkbox {
+    display: none;
+}
+
+label.menu-icon {
+    font-size: 30px;
+    margin: 0 0.4em;
+}
+
+header img{
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+}
+
+
+/* RIGHT SIDE */
+header__right {
+    display: flex;
+    align-items: center;   
+}
+
+button.dark-mode__icon-field {
+    font-size: 30px;
+    margin: 0 0.4em;
+    border: 0;
+    background: none;
+    width: 1em;
+}
