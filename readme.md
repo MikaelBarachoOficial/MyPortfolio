@@ -23,5 +23,4 @@ Welcome! My portfolio is available in English, Portuguese, and Spanish.
 | Footer | Under Development |
 
 ## 🔗 Links
-> - Color Palette: https://colorhunt.co/
 > - Icons: https://fontawesome.com/

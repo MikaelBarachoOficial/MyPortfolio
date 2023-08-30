@@ -11,11 +11,22 @@
     <header>
         <div class="header__left">
             <div>
-                <input type="checkbox" id="menu-icon__checkbox">
+                <input type="button" id="menu-icon__checkbox">
                 <label for="menu-icon__checkbox" class="menu-icon">
                     <i class="fa-solid fa-bars" id="menu-icon__hamburguer"></i>
                 </label>
             </div>
+            
+            <nav id="sidebar-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Store</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            
 
             <div>
                 <img src="./assets/mikael-profile-picture.jpg" alt="Mikael's picture">
@@ -23,16 +34,19 @@
         </div>
 
         <div class="header__right">
-            <div>
+            
                 <button class="dark-mode__icon-field" id="dark-mode__button">
-                    <i class="fa-solid fa-moon" id="dark-mode__icon" style="color: #000000;"></i>
+                    <i class="fa-solid fa-moon" id="dark-mode__icon"></i>
                 </button>
-            </div>
+                <button class="dark-mode__icon-field" id="dark-mode__button">
+                    <i class="fa-solid fa-language"></i>
+                </button>
             
         </div>
     </header>
 
     <script src="./scripts/dark-mode.js"></script>
+    <script src="./scripts/show-menu.js"></script>
     <script src="https://kit.fontawesome.com/606855be87.js" crossorigin="anonymous"></script>
 </body>
 </html>

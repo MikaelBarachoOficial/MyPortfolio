@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,500&display=swap');
 @import url(./header.css);
 
 * {
@@ -5,10 +6,26 @@
     margin: 0;
 }
 
-/* :root {
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #6C757D;
+    --background-color: #F1F3F5;
+    --text-color: #212529;
+    --accent-color: #28A745;
 
+    --primary-font: 'DM Sans', sans-serif;
 }
 
 .dark-mode {
+    --primary-color: #0D6EFD;
+    --secondary-color: #ADB5BD;
+    --background-color: #343A40;
+    --text-color: #F8F9FA;
+    --accent-color: #20C997;
+}
 
-} */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: 0.3s;
+}

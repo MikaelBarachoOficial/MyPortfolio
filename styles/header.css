@@ -5,6 +5,8 @@ header{
     height: 3.5em;
     width: 100vw;
     position: fixed;
+    background-color: var(--primary-color);
+    color: var(--background-color);
 }
 
 /* LEFT SIDE */
@@ -30,9 +32,10 @@ header img{
 
 
 /* RIGHT SIDE */
-header__right {
+.header__right {
     display: flex;
-    align-items: center;   
+    align-items: center;
+    margin-right: 1em;
 }
 
 button.dark-mode__icon-field {
@@ -41,4 +44,44 @@ button.dark-mode__icon-field {
     border: 0;
     background: none;
     width: 1em;
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+/* SIDEBAR MENU */
+#sidebar-menu {
+    position: absolute;
+    background-color: var(--primary-color);
+    height: 100vh;
+    width: 40%;
+    top: 3em;
+    left: 0; /* Start from the left edge */
+    transform: translateX(-100%); /* Start off screen */
+    transition: transform 0.3s ease-out; /* Animation settings */
+}
+
+/* Class to show menu */
+#sidebar-menu.show-menu {
+    transform: translateX(0); /* Slide in to view */
+    z-index: 10;
+}
+
+#sidebar-menu ul {
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0;
+    gap: 2em;
+
+}
+
+#sidebar-menu ul li {
+    text-align: center;
+}
+
+#sidebar-menu ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color: var(--text-color);
 }
